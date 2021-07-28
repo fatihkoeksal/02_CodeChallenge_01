@@ -10,10 +10,10 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 */
 
 
-let ersteZahl = prompt("Geben Sie die erste Zahl: "); 
-let zweiteZahl = prompt("Geben Sie die zweite Zahl: ");
+let ersteZahl = prompt("Bitte eine Zahl eingeben: "); // dekleration + eingabe
+let zweiteZahl = prompt("Bitte eine weitere Zahl eingeben: "); // dekleration + eingabe
 
-let summe = +ersteZahl + +zweiteZahl;
+let summe = +ersteZahl + +zweiteZahl; // Rechnung
 
 
-console.log("Die Summe der Zahlen ist: ", summe);
+console.log("Die Summe der Zahlen ist: ", summe); // Ausgabe
