@@ -10,8 +10,8 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 */
 
 
-let ersteZahl = prompt("Geben Sie die erste Zahl: ", );
-let zweiteZahl = prompt("Geben Sie die zweite Zahl: ", );
+let ersteZahl = prompt("Geben Sie die erste Zahl: "); 
+let zweiteZahl = prompt("Geben Sie die zweite Zahl: ");
 
 let summe = +ersteZahl + +zweiteZahl;
 
