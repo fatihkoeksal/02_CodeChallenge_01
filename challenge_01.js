@@ -13,7 +13,8 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 let ersteZahl = prompt("Bitte eine Zahl eingeben: "); // dekleration + eingabe
 let zweiteZahl = prompt("Bitte eine weitere Zahl eingeben: "); // dekleration + eingabe
 
-let summe = +ersteZahl + +zweiteZahl; // Rechnung (vorsicht!)
+let summe = +ersteZahl + +zweiteZahl; // Rechnung (vorsicht! beste und kürzeste weg ein 
+//string zur eine number umzuwandeln ist ein '+' vor dem variable)
 
 
 console.log("Die Summe der Zahlen ist: ", summe); // Ausgabe
