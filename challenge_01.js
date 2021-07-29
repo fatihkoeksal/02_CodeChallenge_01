@@ -16,7 +16,7 @@ let summe = +ersteZahl + +zweiteZahl; /* Rechnung. (vorsicht! beste und kürzest
 string zur eine number umzuwandeln ist ein '+' vor dem variable) */
 
 console.log("Die Summe der Zahlen ist: ", summe); // Ausgabe -> console
-
+// EDIT von Holger: Die Idee mit dem Ausgabefenster finde ich gut (und will mit pull requests rumexperimentieren, deshalb kommentiere ich hier mal...)
 window.alert(+ersteZahl + +zweiteZahl); // Ausgabe -> pop-up alert
 
 
